@@ -1,0 +1,47 @@
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900;
+    text-align: center;
+}
+
+footer .lang button {
+    width: 120px;
+}
+
+header .lang button {
+    width: 100px;
+}
+
+
+/*-- pager --*/
+
+.page-numbers {
+    display: inline-block;
+    padding: 7px 12px;
+    margin: 0 2px 0 0;
+    border: 1px solid #ffa425;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #ffa425;
+}
+
+.page-numbers.current,
+a.page-numbers:hover {
+    background: #182b67;
+    color: #ffa425;
+}
+.knowMore .imageWithText{ transition: all .2s ease-in-out; }
+.knowMore .imageWithText:hover{
+	transform: scale(1);
+	width: 104%;
+	
+}
+
+.formAr .inputName, .formAr input, .formAr select,
+.formAr .wpcf7 input[type="url"],
+.formAr .wpcf7 input[type="email"],
+.formAr .wpcf7 input[type="tel"] {
+    direction: rtl !important;
+}

@@ -1,0 +1,23 @@
+/*
+Theme Name: NSNS WP
+Theme URI: https://github.com/ezzatmakar/nsns
+Description: Custom WP theme developed by 
+Author: @ezzat-makar ezzatmakar93@gmail.com
+Author URI: https://github.com/ezzatmakar/
+Version: 1.1
+*/
+
+form span.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #ffa423;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+	display: block !important;
+}
