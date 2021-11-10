@@ -121,23 +121,4 @@
    
 </script>
 <?php else: ?>
-<script>
-
-    // $(".mainMenu a").on('click', function(event) {
-    //     // let url = $($(this).attr('href'))
-    //     // console.log(url)
-    //     if (this.hash !== "") {
-    //         // Prevent default anchor click behavior
-    //         // event.preventDefault();
-    //         var hash = this.hash;
-    //         $('html, body').animate({
-    //             scrollTop: $(hash).offset().top-100
-    //         },500, function(){
-    //             // Add hash (#) to URL when done scrolling (default click behavior)
-    //
-    //             window.location.hash = hash;
-    //         });
-    //     }
-    // });
-</script>
 <?php endif; ?>
