@@ -52,11 +52,7 @@
 					echo apply_filters('the_title', $impo_str );
 					?>
 				</h3>
-                    <?php
-                    wp_nav_menu( array(
-                            'theme_location' => 'extra-menu',
-                         ));
-                    ?>
+                <?php wp_nav_menu(['theme_location' => 'extra-menu']);?>
             </div>
             <br>
             <div class="footerMenu">
