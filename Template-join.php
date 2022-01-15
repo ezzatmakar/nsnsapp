@@ -79,7 +79,7 @@ get_header();
 
 	 function showPosition(position) {
 		 myLatLng = { lat:  position.coords.latitude, lng: position.coords.longitude };
-		 mapAddress.val("https://www.google.com/maps/@"+ position.coords.latitude + "," +position.coords.longitude);
+		 mapAddress.val("https://www.google.com/maps/search/?api=1&query="+ position.coords.latitude + "," +position.coords.longitude);
 		 showMap();
 	 }
 	 
@@ -110,11 +110,11 @@ get_header();
 
         google.maps.event.addListener(map, 'click', function(event) {
             marker.setPosition(event.latLng);
-            mapAddress.val("https://www.google.com/maps/@" + marker.position.lat() + "," + marker.position.lng());
+            mapAddress.val("https://www.google.com/maps/search/?api=1&query=" + marker.position.lat() + "," + marker.position.lng());
             console.log(mapAddress.val())
         });
         google.maps.event.addListener(marker, 'dragend', function() {
-            mapAddress.val("https://www.google.com/maps/@" + marker.position.lat() + "," + marker.position.lng());
+            mapAddress.val("https://www.google.com/maps/search/?api=1&query=" + marker.position.lat() + "," + marker.position.lng());
             console.log(mapAddress.val)
         });
 
